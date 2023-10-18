@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/player ledge climb 48x48.png-c82a9907219927045aca5e67d1049803.stex"
+path="res://.import/Player Side-Climb 48x48.png-c02d52f33702e8759b59ef5d838d46ff.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/Player/Animations/player ledge climb 48x48.png"
-dest_files=[ "res://.import/player ledge climb 48x48.png-c82a9907219927045aca5e67d1049803.stex" ]
+source_file="res://Player/Animations/Player Side-Climb 48x48.png"
+dest_files=[ "res://.import/Player Side-Climb 48x48.png-c02d52f33702e8759b59ef5d838d46ff.stex" ]
 
 [params]
 

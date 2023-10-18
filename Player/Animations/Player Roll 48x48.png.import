@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/player air spin 48x48.png-608ab9f4d1f5b653f2d073ea658a0bcf.stex"
+path="res://.import/Player Roll 48x48.png-3583b54829616a37a3f4cab781bde8b4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/Player/Animations/player air spin 48x48.png"
-dest_files=[ "res://.import/player air spin 48x48.png-608ab9f4d1f5b653f2d073ea658a0bcf.stex" ]
+source_file="res://Player/Animations/Player Roll 48x48.png"
+dest_files=[ "res://.import/Player Roll 48x48.png-3583b54829616a37a3f4cab781bde8b4.stex" ]
 
 [params]
 

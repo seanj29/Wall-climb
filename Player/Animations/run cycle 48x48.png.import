@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Player Roll 48x48.png-540314a0da3d4e04ebfbef986925f33f.stex"
+path="res://.import/run cycle 48x48.png-de3d72492dc7964067519fc451bc24d8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/Player/Animations/Player Roll 48x48.png"
-dest_files=[ "res://.import/Player Roll 48x48.png-540314a0da3d4e04ebfbef986925f33f.stex" ]
+source_file="res://Player/Animations/run cycle 48x48.png"
+dest_files=[ "res://.import/run cycle 48x48.png-de3d72492dc7964067519fc451bc24d8.stex" ]
 
 [params]
 

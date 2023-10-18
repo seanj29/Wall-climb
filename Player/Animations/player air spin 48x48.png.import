@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Character Idle 48x48.png-0405e972741733a234c6c73f1d55a81e.stex"
+path="res://.import/player air spin 48x48.png-ec6d1009374f6b0225ce5dd81267eb75.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/Player/Animations/Character Idle 48x48.png"
-dest_files=[ "res://.import/Character Idle 48x48.png-0405e972741733a234c6c73f1d55a81e.stex" ]
+source_file="res://Player/Animations/player air spin 48x48.png"
+dest_files=[ "res://.import/player air spin 48x48.png-ec6d1009374f6b0225ce5dd81267eb75.stex" ]
 
 [params]
 

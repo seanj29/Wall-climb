@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/run cycle 48x48.png-4562b9174df6f904dd86715fc2b4b904.stex"
+path="res://.import/PlayerWalk 48x48.png-b2160c7045ed001972ec484f3bae4465.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/Player/Animations/run cycle 48x48.png"
-dest_files=[ "res://.import/run cycle 48x48.png-4562b9174df6f904dd86715fc2b4b904.stex" ]
+source_file="res://Player/Animations/PlayerWalk 48x48.png"
+dest_files=[ "res://.import/PlayerWalk 48x48.png-b2160c7045ed001972ec484f3bae4465.stex" ]
 
 [params]
 

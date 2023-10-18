@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/PlayerWalk 48x48.png-66fa6178d296b58410e24c7de4c8f021.stex"
+path="res://.import/wall land 48x48.png-72d72bf6f56109f587a42280cd28db95.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/Player/Animations/PlayerWalk 48x48.png"
-dest_files=[ "res://.import/PlayerWalk 48x48.png-66fa6178d296b58410e24c7de4c8f021.stex" ]
+source_file="res://Player/Animations/wall land 48x48.png"
+dest_files=[ "res://.import/wall land 48x48.png-72d72bf6f56109f587a42280cd28db95.stex" ]
 
 [params]
 

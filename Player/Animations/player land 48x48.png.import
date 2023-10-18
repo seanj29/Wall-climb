@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Wall Slide 48x48.png-124e5a88036bd4f70a9b7eecb8eb9f73.stex"
+path="res://.import/player land 48x48.png-6846d5579e593e25b83e4656079a6147.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://art/Player/Animations/Wall Slide 48x48.png"
-dest_files=[ "res://.import/Wall Slide 48x48.png-124e5a88036bd4f70a9b7eecb8eb9f73.stex" ]
+source_file="res://Player/Animations/player land 48x48.png"
+dest_files=[ "res://.import/player land 48x48.png-6846d5579e593e25b83e4656079a6147.stex" ]
 
 [params]
 
