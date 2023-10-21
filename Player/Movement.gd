@@ -9,9 +9,10 @@ export (int) var max_jumps = 2
 onready var screen_size = get_viewport_rect().size
 onready var _sprite = $AnimatedSprite
 
+const UPV = Vector2(0, -1)
+
 var direction = Vector2.RIGHT
 var velocity = Vector2()
-
 var jumpCount = 0
 
 func _process(_delta):
@@ -34,13 +35,16 @@ func _physics_process(delta):
 
 	if is_on_floor():
 		jumpCount = 0
-		
-	if Input.is_action_just_pressed("ui_select") and jumpCount != max_jumps:
+
+	if Input.is_action_just_pressed("ui_select") and jumpCount == 0:
 		velocity.y = -jump_speed
 		jumpCount += 1
-	
+	elif Input.is_action_just_pressed("ui_select") and jumpCount == 1:
+		velocity.y = -jump_speed
+		position += velocity * delta 
+		jumpCount += 1
 
-	move_and_slide(velocity, Vector2(0, -1))
+	move_and_slide(velocity, UPV)
 
 	position.x = clamp(position.x, 0, screen_size.x)
 	position.y = clamp(position.y, 0, screen_size.y)
