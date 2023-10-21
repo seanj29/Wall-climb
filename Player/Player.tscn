@@ -13,8 +13,8 @@
 [ext_resource path="res://Player/Animations/Character Idle 48x48.png" type="Texture" id=11]
 
 [sub_resource type="CapsuleShape2D" id=66]
-radius = 17.0
-height = 12.0
+radius = 15.0
+height = 6.0
 
 [sub_resource type="AtlasTexture" id=1]
 flags = 4
@@ -354,12 +354,12 @@ animations = [ {
 "speed": 12.0
 }, {
 "frames": [ SubResource( 21 ), SubResource( 22 ), SubResource( 23 ) ],
-"loop": true,
+"loop": false,
 "name": "Jumping",
 "speed": 12.0
 }, {
 "frames": [ SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 31 ), SubResource( 32 ) ],
-"loop": true,
+"loop": false,
 "name": "Landing",
 "speed": 12.0
 }, {
@@ -391,11 +391,9 @@ animations = [ {
 
 [node name="Player" type="KinematicBody2D"]
 script = ExtResource( 1 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -2, 2 )
 shape = SubResource( 66 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
